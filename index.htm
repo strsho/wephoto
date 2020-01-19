@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>安房が好き</title>
+<script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode@latest/build/qrcode.min.js"></script>
+</head>
+<body>
+<h1>安房が好き</h1>
+<div>
+写真にGoogle MapsのQRコードを埋め込みます。
+</div>
+<div>
+<input type="text" id="t" value="#安房が好き">
+</div>
+<div>
+<input type="file" accept="image/*" id="f">
+</div>
+<div>
+<hr>
+<a href="" id="a"></a>
+</div>
+<div>
+<hr>
+<a href="" id="adl" style="display:none" >画像を保存</a>
+</div>
+<img src="" id="img" style="display:none" >
+<canvas id="cnv"></canvas>
+<canvas id="qr" style="display:none"></canvas>
+
+
+<script src="./lib/wephoto.js"></script>
+
+</body>
+</html>
+
