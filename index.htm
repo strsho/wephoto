@@ -3,13 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <title>安房が好き</title>
+<link href="./css/default.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
 <script src="https://cdn.jsdelivr.net/npm/qrcode@latest/build/qrcode.min.js"></script>
 </head>
 <body>
-<h1>安房が好き</h1>
+<img src="./img/logo_small.png" caption="安房が好き" >
 <div>
-写真にGoogle MapsのQRコードを埋め込みます。
+写真にGoogle MapsのQRコードを埋め込みます。<br>
+<a href="docs/readme.pdf">紹介資料</a>
+
 </div>
 <div>
 <input type="text" id="t" value="#安房が好き">
@@ -29,6 +32,10 @@
 <canvas id="cnv"></canvas>
 <canvas id="qr" style="display:none"></canvas>
 
+<hr>
+<div>
+Copyright 2020, S.T.R. Software
+</div>
 
 <script src="./lib/wephoto.js"></script>
 
